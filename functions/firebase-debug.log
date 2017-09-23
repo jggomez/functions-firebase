@@ -1,0 +1,26 @@
+[debug] [2017-09-23T16:05:29.510Z] ----------------------------------------------------------------------
+[debug] [2017-09-23T16:05:29.514Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jggomez\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase functions:config:set conf.webhookurl=https://hooks.slack.com/services/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
+[debug] [2017-09-23T16:05:29.515Z] CLI Version:   3.9.2
+[debug] [2017-09-23T16:05:29.516Z] Platform:      win32
+[debug] [2017-09-23T16:05:29.516Z] Node Version:  v6.10.3
+[debug] [2017-09-23T16:05:29.517Z] Time:          Sat Sep 23 2017 11:05:29 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2017-09-23T16:05:29.517Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-23T16:05:29.551Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-23T16:05:29.552Z] > authorizing via signed-in user
+[debug] [2017-09-23T16:05:29.557Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-23T16:05:29.558Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/0iyjrKJOtI9vGPMMLfD5n4VXRr8DJJ1oG1uSsh9UIfY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Sep 23 2017 11:05:29 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2017-09-23T16:05:30.038Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-23T16:05:30.096Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/functions-21d87  
+ Sat Sep 23 2017 11:05:30 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2017-09-23T16:05:30.883Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-23T16:05:30.883Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/functions-21d87/tokens  
+ Sat Sep 23 2017 11:05:30 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2017-09-23T16:05:31.710Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-23T16:05:31.711Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/functions-21d87?view=CONSUMER_VIEW  
+ Sat Sep 23 2017 11:05:31 GMT-0500 (Hora est. Pacífico, Sudamérica)

@@ -2,6 +2,7 @@
 const cors = require("cors")({ origin: true });
 const admin = require("firebase-admin");
 const rp = require('request-promise');
+const functions = require("firebase-functions");
 
 //firebase functions:config:set conf.webhookurl="https://hooks.slack.com/services/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"
 
